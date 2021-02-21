@@ -1,0 +1,11 @@
+.header{
+    grid-area:header;
+    background-color:#4842B8;
+    border-bottom: 2px solid #E63A3A;
+}
+/*
+#B8782E
+#42B842
+#4842B8
+#E63A3A
+*/

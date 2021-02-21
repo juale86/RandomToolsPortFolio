@@ -1,0 +1,21 @@
+.App {
+  height: 100vh;
+  display:grid;
+  grid-template-areas:"header header" "menu main";
+  grid-template-rows: 5vw;
+  grid-template-columns: 3vw;
+}
+
+/*
+#B8782E
+#42B842
+#4842B8
+#E63A3A
+*/
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
