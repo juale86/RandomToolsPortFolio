@@ -1,11 +1,18 @@
 .header{
     grid-area:header;
-    background-color:#4842B8;
-    border-bottom: 2px solid #E63A3A;
+    background:linear-gradient(#2196f3,#2166f3);
+    border-bottom: 2px solid rgba(244,67,54,.9);
+    justify-content:space-between;
+    align-items: center;
 }
-/*
-#B8782E
-#42B842
-#4842B8
-#E63A3A
+.header>*{
+    text-decoration: none;
+}
+
+/* VIEJOOOOO
+#B8782E marron
+#42B842 verde
+#4842B8 violeta
+#E63A3A rojo
 */
+/* Iconos de flaticon.com */

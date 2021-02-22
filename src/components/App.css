@@ -2,16 +2,28 @@
   height: 100vh;
   display:grid;
   grid-template-areas:"header header" "menu main";
-  grid-template-rows: 5vw;
-  grid-template-columns: 3vw;
+  grid-template-rows: minmax(60px, 8vh);
+  grid-template-columns: minmax(60px,7vw);
 }
 
-/*
-#B8782E
-#42B842
-#4842B8
-#E63A3A
+.fc /*flexcols*/{
+  display: flex;
+  flex-direction: column;
+}
+.fr /*flexcols*/{
+  display: flex;
+  flex-direction: row;
+}
+
+/* NUEVOOOOOOOOOOOOO
+#2196f3 rgb(33,150,243)   azul
+#009688 rgb(0,150,136)  verde
+#673ab7 rgb(103,58,183)  violeta
+#ffeb3b rgb(255,235,59)  amarillo
+#f44336 rgb(244,67,54)  rojo
+#795548 rgb(121,85,72)  marron
 */
+
 /* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -2,3 +2,9 @@
     grid-area:menu;
     background-color: grey;
 }
+.iconClass{
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto;
+}
