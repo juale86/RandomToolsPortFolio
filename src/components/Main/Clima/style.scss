@@ -1,0 +1,29 @@
+.app{
+  background:linear-gradient(to top,#FFAE19, #B27300);
+  padding: 40px;
+}
+.title{
+  text-align:center;
+  font-size:2em;
+  font-family:Arial;
+  color:#0073FF;
+  vertical-align:super;
+}
+.inl{
+  display:inline-block;
+}
+.Info{
+  margin-left: 20px;
+  margin-bottom:10px;
+  background:linear-gradient(to right,transparent,#1e7bdaa6);
+  border:purple 1px lightblue;
+}
+
+.fc{
+  align-items:center;
+  justify-content: center;
+}
+
+.card{
+  background-color: grey;
+}

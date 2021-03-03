@@ -3,6 +3,9 @@ import {
     Switch,
     Route,
 } from 'react-router-dom'
+import Bitcoin from './Bitcoin'
+import Calculadora from './Calculadora'
+import Clima from './Clima'
 
 const Main = () => {
     return (
@@ -17,9 +20,6 @@ const Main = () => {
 }
 
 const Home = () => <p className="prueba">Y bueno, cosas</p>
-const Bitcoin = () => <p className="prueba">Bitcoin</p>
-const Calculadora = () => <p className="prueba">Calculadora</p>
-const Clima = () => <p className="prueba">Clima</p>
 const Tareas = () => <p className="prueba">Tareas</p>
 
 export default Main;

@@ -34,13 +34,13 @@ const IconNames = ['hogar','bitcoin','calculadora','clima','portapapeles']
 const reducer = (state = IconNames,action) => {
     switch(action.type){
         case ADD_GADGET:
-            return state.concat(action.newgadget)
+            return state.concat(action.payload)
         case DEL_GADGET:
-            return state.slice(0,action.index).concat(state.slice(action.index+1))
+            return state.slice(0,action.payload).concat(state.slice(action.payload + 1))
         default:
             return state
     }
 }
-const store = createStore(reducer)
+const store = createStore(reducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 export { store , stateToPropsMap, dispatchToPropsMaps };

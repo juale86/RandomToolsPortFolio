@@ -1,12 +1,13 @@
 import { NavLink } from 'react-router-dom';
-import './style.css'
+import './style.scss'
 
 const Navbar = () => {
     return (
         <nav className='header fr'>
-            <NavLink to='/'>Link palgun lao</NavLink>
-            Barra
-            <a href="https://drive.google.com/file/d/1vLlrhed1YwdsNcAn-nHdHsira1A722Fg/view?usp=sharing">CV</a>
+            <div className={'CVButton'}>
+                <a href='https://www.linkedin.com/in/juale86/'>Aleman Juan Manuel (LinkedIn)</a>
+            </div>
+            <a className={'CVButton'} href="https://drive.google.com/file/d/1tgZpPwy4Qc2OMvN-0KxkDUcqeysGmuMb/view?usp=sharing">CV</a>
         </nav>
     );
 }

@@ -1,0 +1,37 @@
+$myColor: rgb(13, 0, 255);
+
+p {
+  color: $myColor;
+}
+
+.fc{
+  align-items:center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.inl{
+  display: inline-block;
+}
+
+.card{
+  background-color: antiquewhite;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.reloadBTN{
+  border:none;
+}
+.priceVal{
+  font-size: 1.5rem;
+  padding-right: 2px;
+}
+.codeVal{
+  font-size: .8rem;
+  color: darkgreen;
+  font-weight: bold;
+}
+.fondo{
+  background:linear-gradient(to top,#FFAE19, #B27300);
+}
